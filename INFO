@@ -3,6 +3,7 @@ project: IO4-Turtle
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-03
+image_path: IO4-Turtle-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
