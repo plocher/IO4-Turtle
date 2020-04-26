@@ -2368,8 +2368,6 @@ chip</description>
 <smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <text x="-1.5875" y="-0.1906" size="0.8128" layer="25">&gt;NAME</text>
 <text x="3.4607" y="-2.3813" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-1.27" y="5.08" size="0.4064" layer="49">IPC SO8</text>
-<text x="-1.905" y="4.175" size="0.3048" layer="49">JEDEC MS-012 AA</text>
 </package>
 <package name="DIL08">
 <description>Standard 8-pin DIP Packaging</description>
