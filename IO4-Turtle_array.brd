@@ -1229,7 +1229,7 @@ design rules under a new name.
 <element name="TR1X21" library="SPCoast" package="TH-T4" value="CoilCraft" x="90.64" y="66.675" rot="R90"/>
 <element name="VR1X21" library="SPCoast" package="SOT223" value="LM1117-5" x="55.08" y="68.58" rot="R90"/>
 <element name="X2X21" library="SPCoast" package="MSTBA5" value="MSTBA5" x="93.815" y="37.465" rot="R90"/>
-<element name="X2X1" library="SPCoast" package="BOARD-DINRAIL-2.7IN-5CM-DUAL" value="" x="0" y="0"/>
+<element name="X2X1" library="SPCoast" package="BOARD-DINRAIL-2.7IN-5CM-DUAL" value="10x10" x="0" y="0"/>
 </elements>
 <signals>
 <signal name="!INORMALX11">
