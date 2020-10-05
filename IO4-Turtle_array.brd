@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1093,7 +1093,7 @@ design rules under a new name.
 <element name="C2X11" library="SPCoast" package="PANASONIC_D" value="" x="5.08" y="59.69" rot="R270"/>
 <element name="C3X11" library="SPCoast" package="0805-CAP" value="" x="24.765" y="40.64"/>
 <element name="C4X11" library="SPCoast" package="0805-CAP" value="" x="3.81" y="19.05" rot="R270"/>
-<element name="CON1X11" library="SPCoast" package="RJ25-INVERTED" value="" x="17.78" y="74.93" rot="R180"/>
+<element name="CON1X11" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="17.78" y="74.93" rot="R180"/>
 <element name="D1X11" library="SPCoast" package="SOT23" value="" x="28.067" y="34.544"/>
 <element name="FEEDBACKX11" library="SPCoast" package="8X8-SQ-PB" value="" x="5.08" y="27.94" rot="R270"/>
 <element name="FID1X11" library="SPCoast" package="FIDUCIAL_1MM" value="" x="1.905" y="76.835" rot="R270"/>
@@ -1101,11 +1101,11 @@ design rules under a new name.
 <element name="FROGX11" library="SPCoast" package="8X8-SQ-PB" value="" x="43.18" y="17.78" rot="R90"/>
 <element name="IC1X11" library="SPCoast" package="SO-08" value="" x="7.62" y="46.355" rot="R270"/>
 <element name="IC2X11" library="SPCoast" package="SO08" value="" x="24.765" y="46.355" rot="R270"/>
-<element name="J1X11" library="SPCoast" package="KK-156-8-F" value="" x="21.59" y="17.78" rot="R180"/>
+<element name="J1X11" library="SPCoast" package="KK-156-8-F" value="0.156" x="21.59" y="17.78" rot="R180"/>
 <element name="LEDNX11" library="SPCoast" package="0603-LED" value="" x="13.335" y="52.705" rot="R270"/>
 <element name="LEDOX11" library="SPCoast" package="0603-LED" value="" x="19.685" y="52.705" rot="R270"/>
 <element name="LEDRX11" library="SPCoast" package="0603-LED" value="" x="10.795" y="52.705" rot="R270"/>
-<element name="LMP1X11" library="SPCoast" package="BULB-3156" value="" x="33.655" y="66.675" rot="R90"/>
+<element name="LMP1X11" library="SPCoast" package="BULB-3156" value="12v" x="33.655" y="66.675" rot="R90"/>
 <element name="MOTORX11" library="SPCoast" package="8X8-SQ-PB" value="" x="5.08" y="36.83" rot="R270"/>
 <element name="OSHW1X11" library="SPCoast" package="OSHW-LOGO-M" value="" x="29.21" y="74.93"/>
 <element name="Q1X11" library="SPCoast" package="SOT23" value="" x="22.987" y="34.544"/>
@@ -1123,7 +1123,7 @@ design rules under a new name.
 <element name="C2X21" library="SPCoast" package="PANASONIC_D" value="" x="55.08" y="59.69" rot="R270"/>
 <element name="C3X21" library="SPCoast" package="0805-CAP" value="" x="74.765" y="40.64"/>
 <element name="C4X21" library="SPCoast" package="0805-CAP" value="" x="53.81" y="19.05" rot="R270"/>
-<element name="CON1X21" library="SPCoast" package="RJ25-INVERTED" value="" x="67.78" y="74.93" rot="R180"/>
+<element name="CON1X21" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="67.78" y="74.93" rot="R180"/>
 <element name="D1X21" library="SPCoast" package="SOT23" value="" x="78.067" y="34.544"/>
 <element name="FEEDBACKX21" library="SPCoast" package="8X8-SQ-PB" value="" x="55.08" y="27.94" rot="R270"/>
 <element name="FID1X21" library="SPCoast" package="FIDUCIAL_1MM" value="" x="51.905" y="76.835" rot="R270"/>
@@ -1131,11 +1131,11 @@ design rules under a new name.
 <element name="FROGX21" library="SPCoast" package="8X8-SQ-PB" value="" x="93.18" y="17.78" rot="R90"/>
 <element name="IC1X21" library="SPCoast" package="SO-08" value="" x="57.62" y="46.355" rot="R270"/>
 <element name="IC2X21" library="SPCoast" package="SO08" value="" x="74.765" y="46.355" rot="R270"/>
-<element name="J1X21" library="SPCoast" package="KK-156-8-F" value="" x="71.59" y="17.78" rot="R180"/>
+<element name="J1X21" library="SPCoast" package="KK-156-8-F" value="0.156" x="71.59" y="17.78" rot="R180"/>
 <element name="LEDNX21" library="SPCoast" package="0603-LED" value="" x="63.335" y="52.705" rot="R270"/>
 <element name="LEDOX21" library="SPCoast" package="0603-LED" value="" x="69.685" y="52.705" rot="R270"/>
 <element name="LEDRX21" library="SPCoast" package="0603-LED" value="" x="60.795" y="52.705" rot="R270"/>
-<element name="LMP1X21" library="SPCoast" package="BULB-3156" value="" x="83.655" y="66.675" rot="R90"/>
+<element name="LMP1X21" library="SPCoast" package="BULB-3156" value="12v" x="83.655" y="66.675" rot="R90"/>
 <element name="MOTORX21" library="SPCoast" package="8X8-SQ-PB" value="" x="55.08" y="36.83" rot="R270"/>
 <element name="OSHW1X21" library="SPCoast" package="OSHW-LOGO-M" value="" x="79.21" y="74.93"/>
 <element name="Q1X21" library="SPCoast" package="SOT23" value="" x="72.987" y="34.544"/>

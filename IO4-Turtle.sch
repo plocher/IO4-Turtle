@@ -8229,8 +8229,8 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="P+4" library="SPCoast" deviceset="VCCIO" device=""/>
 <part name="P+5" library="SPCoast" deviceset="VCC" device=""/>
-<part name="LMP1" library="SPCoast" deviceset="LAMP" device="BULB"/>
-<part name="J1" library="SPCoast" deviceset="CONNECTOR-M08" device="1.56-F"/>
+<part name="LMP1" library="SPCoast" deviceset="LAMP" device="BULB" value="12v"/>
+<part name="J1" library="SPCoast" deviceset="CONNECTOR-M08" device="1.56-F" value="0.156"/>
 <part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M"/>
 </parts>
 <sheets>
