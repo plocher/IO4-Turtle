@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="no"/>
 <layer number="27" name="tValues" color="56" fill="1" visible="no" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="29" name="tStop" color="32" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
@@ -55,11 +55,11 @@
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
 <layer number="46" name="Milling" color="35" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="36" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="22" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="24" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="49" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="29" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -8213,14 +8213,14 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="C4" library="SPCoast" deviceset="CAP*" device="0805" value="0.1uf"/>
 <part name="GND2" library="SPCoast" deviceset="GND" device=""/>
 <part name="TR1" library="SPCoast" deviceset="PULSE-TRANSFORMER" device="PTH" value="CoilCraft"/>
-<part name="R7" library="SPCoast" deviceset="R*" device="0805-RES" value="10K"/>
-<part name="R5" library="SPCoast" deviceset="R*" device="0805-RES" value="1K0"/>
-<part name="C3" library="SPCoast" deviceset="CAP*" device="0805" value="2.2uf"/>
+<part name="R7" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
+<part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="1K0"/>
+<part name="C3" library="SPCoast" deviceset="CAP*" device="0603" value="2.2uf"/>
 <part name="C2" library="SPCoast" deviceset="CAP-POL*" device="D" value="100uf"/>
 <part name="LEDO" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
 <part name="GND4" library="SPCoast" deviceset="GND" device=""/>
 <part name="P+2" library="SPCoast" deviceset="VCC" device=""/>
-<part name="X2" library="SPCoast" deviceset="MSTBA5" device=""/>
+<part name="X2" library="SPCoast" deviceset="MSTBA5" device="" value="0.200"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="LEDR" library="SPCoast" deviceset="LED*" device="0603-LED" value="R"/>
 <part name="LEDN" library="SPCoast" deviceset="LED*" device="0603-LED" value="G"/>
@@ -8229,27 +8229,27 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="IC2" library="SPCoast" deviceset="NE555" device="D" value="NE555S"/>
 <part name="GND3" library="SPCoast" deviceset="GND" device=""/>
 <part name="P+6" library="SPCoast" deviceset="VCC" device=""/>
-<part name="R6" library="SPCoast" deviceset="R*" device="0805-RES" value="1M0"/>
+<part name="R6" library="SPCoast" deviceset="R*" device="0603-RES" value="1M0"/>
 <part name="GND6" library="SPCoast" deviceset="GND" device=""/>
 <part name="FROG" library="SPCoast" deviceset="SWITCH-DPDT" device="PTH-PB" value="DPDT"/>
 <part name="MOTOR" library="SPCoast" deviceset="SWITCH-DPDT" device="PTH-PB" value="DPDT"/>
 <part name="FEEDBACK" library="SPCoast" deviceset="SWITCH-DPDT" device="PTH-PB" value="DPDT"/>
-<part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="2K0"/>
-<part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
-<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
+<part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="2K0"/>
+<part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R1" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R2" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="P+3" library="SPCoast" deviceset="VCCIO" device=""/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-RJ25" device="-43860-2-MOLEX" value="RJ12/6"/>
 <part name="VR1" library="SPCoast" deviceset="VREG-?-*" device="GOI" technology="5" value="LM1117-5"/>
 <part name="P+1" library="SPCoast" deviceset="VCCIO" device=""/>
-<part name="C1" library="SPCoast" deviceset="CAP*" device="0805" value="10uf"/>
+<part name="C1" library="SPCoast" deviceset="CAP*" device="0603" value="10uf"/>
 <part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="P+4" library="SPCoast" deviceset="VCCIO" device=""/>
 <part name="P+5" library="SPCoast" deviceset="VCC" device=""/>
 <part name="LMP1" library="SPCoast" deviceset="LAMP" device="BULB" value="12v"/>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-M08" device="1.56-F" value="0.156"/>
-<part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M"/>
+<part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M" value="OSHW"/>
 </parts>
 <sheets>
 <sheet>
